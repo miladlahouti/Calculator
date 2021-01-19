@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="Calculator-grid">
+        <input type="text" id="txtResult" class="output" />
+        <button data-all-clear class="span-two">AC</button>
+        <button data-delete>DEL</button>
+        <button onclick="operation(this);">/</button>
+        <button onclick="btnnumber(this);">1</button>
+        <button onclick="btnnumber(this);">2</button>
+        <button onclick="btnnumber(this);">3</button>
+        <button onclick="operation(this);">*</button>
+        <button onclick="btnnumber(this);">4</button>
+        <button onclick="btnnumber(this);">5</button>
+        <button onclick="btnnumber(this);">6</button>
+        <button onclick="operation(this);">+</button>
+        <button onclick="btnnumber(this);">7</button>
+        <button onclick="btnnumber(this);">8</button>
+        <button onclick="btnnumber(this);">9</button>
+        <button onclick="operation(this);">-</button>
+        <button data-number>.</button>
+        <button onclick="btnnumber(this);">0</button>
+        <button onclick="calc()" ; class=" span-two ">=</button>
+    </div>
+
+    <link href="styles.css " rel="stylesheet ">
+    <script src="script.js " defer></script>
+</body>
+
+</html>
